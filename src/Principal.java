@@ -34,5 +34,8 @@ public class Principal {
         l1.setCantidadEjemplares(10);
 
         System.out.println("Libro 1 modificado: " + l1.mostrarInformacion());
+        System.out.println("Devolviendo libro...");
+        l1.devolver();
+        System.out.println("Libro 1: " + l1.mostrarInformacion());
     }
 }
