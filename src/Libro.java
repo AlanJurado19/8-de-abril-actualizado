@@ -47,5 +47,18 @@ public class Libro {
     public void setTitulo(String titulo){
         this.titulo=titulo;
     }
+    public void setAutor(String autor){
+        this.autor=autor;
+    }
+    public void setCategoria(String categoria){
+        this.categoria=categoria;
+    }
+    public void setAnio(int anio){
+        this.anio=anio;
+    }
+    public void setCantidadEjemplares(int cantidadEjemplares){
+        this.cantidadEjemplares=cantidadEjemplares;
+    }
+
 
 }
